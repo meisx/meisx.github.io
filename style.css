@@ -74,14 +74,12 @@ a:visited{
 
 .work{
 	display: inline-block;
-	color: #EE888D;
-	border-bottom: 2px solid #EE888D;
+	color: #6BB0E0;
 	font-size: 16px;
 }
 
 .work:hover{
-	color: #EE888D;
-	border-bottom: 2px solid #EE888D;
+	color: #6BB0E0;
 	cursor: pointer;
 }
 
@@ -96,7 +94,7 @@ a:visited{
 }
 
 .about:hover{
-	color: #EE888D;
+	color: #6BB0E0;
 	cursor: pointer;
 }
 
