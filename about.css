@@ -129,6 +129,11 @@ a:visited{
 	margin-right: auto;
 }
 
+}
+.clearfix{
+	clear:both;
+}
+
 .button{
 	width: 160px;
 	margin-left: auto;
