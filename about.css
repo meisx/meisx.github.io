@@ -106,13 +106,13 @@ a:visited{
 
 /* ---------------------------- */
 .photo-wrapper{
-	text-align: center;
+	text-align: left;
 	margin-top: 80px;
 }
 
 .photos{
 	display: block;
-	width: 85%;
+	width: 55%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
