@@ -1,0 +1,61 @@
+@media screen and (min-width: 1441px) {
+	.body-wrapper{
+		width: 45%;
+	}	
+}
+
+
+@media screen and (max-width: 960px) {
+	.body-wrapper{
+		width: 80%;
+	}	
+
+	.project_image{
+		width: 48.5%;
+	}
+
+}
+
+@media screen and (max-width: 665px) {
+	.body-wrapper{
+		width: 85%;
+	}	
+
+	.photo-wrapper{
+		margin-top: 50px;
+	}	
+
+	.photos{
+		width: 98%;
+	}
+
+	.text{
+		width: 98%;
+	}	
+
+}
+
+@media screen and (max-width: 435px) {
+	.link{
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.text{
+		font-size: 16px;
+		line-height: 30px;
+	}	
+
+	.button{
+		font-size: 14px;
+		width: 190px;
+		padding-top: 16px;
+		padding-bottom: 16px;
+	}
+
+	#hide-on-mobile{
+		visibility: hidden;
+		clear: both;
+		display: none;
+	}
+}	
