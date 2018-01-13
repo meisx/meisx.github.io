@@ -1,11 +1,11 @@
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 1441px) {
 	.body-wrapper{
 		width: 45%;
 	}	
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 960px) {
 	.body-wrapper{
 		width: 80%;
 	}	
@@ -16,7 +16,7 @@
 
 }
 
-@media screen and (max-width: 332px) {
+@media screen and (max-width: 665px) {
 	.body-wrapper{
 		width: 85%;
 	}	
@@ -35,7 +35,7 @@
 
 }
 
-@media screen and (max-width: 232px) {
+@media screen and (max-width: 435px) {
 	.link{
 		display: block;
 		margin-bottom: 20px;
