@@ -118,20 +118,25 @@ a:visited{
 	margin-top: 10px;
 	padding-left: 3px;
 	padding-right: 3px;
+	float: left;
+}
+.photos iframe{
+	width: 100%;
 }
 
 .text{
-	width: 400px;
+	width: 42%;
 	margin-top: 30px;
 	font-size: 17px;
 	line-height: 32px;
 	margin-left: auto;
 	margin-right: auto;
+	float: left;
 }
 
 }
 .clearfix{
-	clear:both;
+	clear:both
 }
 
 .button{
