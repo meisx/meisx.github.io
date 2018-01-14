@@ -98,6 +98,21 @@ a:visited{
 	cursor: pointer;
 }
 
+.space{
+	display: inline-block;
+	width: 10px;
+}
+
+.resume{
+	display: inline-block;
+	font-size: 16px;
+}
+
+.resume:hover{
+	color: #6BB0E0;
+	cursor: pointer;
+}
+
 /* ---------------------------- */
 
 

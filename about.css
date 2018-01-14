@@ -35,6 +35,12 @@
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
 /* Highlights and Transitions End*/
 
 body {
@@ -100,6 +106,20 @@ a:visited{
 }
 
 .about:hover{
+	color: #6BB0E0;
+	cursor: pointer;
+}
+.space{
+	display: inline-block;
+	width: 10px;
+}
+
+.resume{
+	display: inline-block;
+	font-size: 16px;
+}
+
+.resume:hover{
 	color: #6BB0E0;
 	cursor: pointer;
 }
