@@ -105,6 +105,10 @@ a:visited{
 }
 
 /* ---------------------------- */
+.column {
+	float: left; 
+	width: 50%;
+}
 .photo-wrapper{
 	text-align: left;
 	margin-top: 80px;
@@ -112,9 +116,9 @@ a:visited{
 
 .photos{
 	display: block;
-	width: 55%;
+	width: 400px;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: 10px;
 	margin-top: 10px;
 	padding-left: 3px;
 	padding-right: 3px;
@@ -122,10 +126,10 @@ a:visited{
 
 .text{
 	width: 400px;
-	margin-top: 30px;
+	margin-top: 70px;
 	font-size: 17px;
 	line-height: 32px;
-	margin-left: auto;
+	margin-left: 10px;
 	margin-right: auto;
 	text-align: left;
 }
@@ -151,6 +155,9 @@ a:visited{
 	background-color: #777777;
 	color: white;	
     -webkit-transition: .5s;		
+}
+.clearfix{
+    clear:both
 }
 
 /* ---------------------------- */
