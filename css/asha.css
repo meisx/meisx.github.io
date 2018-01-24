@@ -33,22 +33,14 @@ a:visited{
 	margin-top: 50px;
 }
 
-.transition{	
-
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;    
-}
-
 /* ---------------------------- */
 
 .navigation{
-
+	text-align: center;
 }
 
 .work{
 	display: inline-block;
-	color: #6BB0E0;
 	font-size: 16px;
 }
 
@@ -88,71 +80,36 @@ a:visited{
 }
 /* ---------------------------- */
 
+.body {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .header{
-	margin-top: 50px;
+	margin-top: 36px;
+	margin-bottom: 0px;
 	font-family: 'Slabo 27px', serif;	
-	font-size: 50px;
+	font-size: 36px;
 	letter-spacing: 3px;
 }
 
 .subheader{
-	font-size: 25px;
+	font-size: 20px;
+	margin-top: 10px;
 }
 
-.team{
-	font-size: 15px;
-}
 
 .description{
 	margin-top: 10px;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 28px;
 }
 
-.button{
-	margin-top: 12px;
-	display: inline-block;
-	width: 160px;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	text-align: center;
-	font-size: 12px;
-	border: 1px solid #383737;
-	background-color: #383737;
-	color: white;
-	margin-right: 5px;
-}
-
-.button2{
-	display: inline-block;
-	width: 160px;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	text-align: center;
-	font-size: 12px;
-	border: 1px solid #383737;
-	color: #383737;
-}
-
-
-.button:hover{
-	cursor: pointer;
-	border: 1px solid #777777;
-	background-color: #777777;
-	color: white;	
-    -webkit-transition: .5s;	
-}
-
-.button2:hover{
-	cursor: pointer;
-	border: 1px solid #777777;
-	background-color: #777777;
-	color: white;	
-    -webkit-transition: .5s;
-}
 
 .grid{
 	margin-top: 10px;
+	width: 700px;
 }
 
 .project_image{
@@ -161,7 +118,7 @@ a:visited{
 	margin-right: auto;
 	padding-right: 3.5px;
 	padding-bottom: 2px;
-	width: 47%;
+	width: 30%;
 	cursor: pointer;
 }
 
@@ -175,48 +132,7 @@ a:visited{
 	margin-right: auto;
 	padding-right: 3.5px;
 	padding-bottom: 2px;
-	width: 95%;
+	width: 50%;
 	cursor: pointer;
 }
-/* ---------------------------- */
 
-.uptotop{
-	position: fixed;
-	bottom: 3%;
-	right: 6%;
-	width: 50px;
-	transition: all .2s ease-in-out;
-}
-
-
-.uptotop:hover{
-	transform: scale(1.2); 
-}
-
-/* ---------------------------- */
-.width{
-	margin-top: 70px;
-	border-bottom: 1px solid #E9E9E9;
-	width: 100%;
-}
-
-
-.social-media{
-	margin-top: 20px;
-	margin-bottom: 30px;
-	text-align: center;
-}
-
-.link{
-	display: inline-block;
-	color: #969696;
-	font-size: 12px;
-	letter-spacing: .5px;
-	margin-left: 12.5px;
-	margin-right: 12.5px;
-}
-
-.link:hover{
-	cursor: pointer;
-	color: #383737;
-}

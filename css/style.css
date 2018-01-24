@@ -105,20 +105,7 @@ a:visited{
 	color: #6BB0E0;
 	cursor: pointer;
 }
-.space{
-	display: inline-block;
-	width: 10px;
-}
 
-.contact{
-	display: inline-block;
-	font-size: 16px;
-}
-
-.contact:hover{
-	color: #6BB0E0;
-	cursor: pointer;
-}
 
 /* ---------------------------- */
 
