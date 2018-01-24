@@ -68,19 +68,12 @@ a:visited{
 	margin-top: 50px;
 }
 
-.transition{
-	-webkit-animation: fadein 2s; 
-    -moz-animation: fadein 2s; 
-    -ms-animation: fadein 2s; 
-    -o-animation: fadein 2s; 
-    animation: fadein 2s;	
-}
-
 
 
 /* ---------------------------- */
 
 .navigation{
+	text-align: center;
 }
 
 
@@ -101,7 +94,6 @@ a:visited{
 
 .about{
 	display: inline-block;
-	color: #6BB0E0;
 	font-size: 16px;
 }
 
@@ -125,45 +117,38 @@ a:visited{
 }
 
 /* ---------------------------- */
-.column {
-	float: left; 
-	width: 50%;
-}
-.photo-wrapper{
-	text-align: left;
-	margin-top: 80px;
-}
-
-.photos{
-	display: block;
-	width: 400px;
-	margin-left: auto;
-	margin-right: 10px;
-	margin-top: 10px;
-	padding-left: 3px;
-	padding-right: 3px;
-}
 
 .text{
 	width: 400px;
-	margin-top: 110px;
-	font-size: 17px;
-	line-height: 32px;
-	margin-left: 10px;
-	margin-right: auto;
-	text-align: left;
-}
-
-.button{
-	width: 160px;
+	margin-top: 50px;
+	font-size: 14px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	text-align: justify;
+}
+.row {
+	width: 400px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
-	margin-top: 30px;
+}
+.column2 {
+	float: left;
+	width: 33.3%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.button{
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
 	font-size: 12px;
-	margin-bottom: 80px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	border: 1px solid #383737;
 	background-color: #383737;
 	color: white;
@@ -178,32 +163,4 @@ a:visited{
 }
 .clearfix{
     clear:both
-}
-
-/* ---------------------------- */
-.width{
-	margin-top: 70px;
-	border-bottom: 1px solid #E9E9E9;
-	width: 100%;
-}
-
-
-.social-media{
-	margin-top: 20px;
-	margin-bottom: 30px;
-	text-align: center;
-}
-
-.link{
-	display: inline-block;
-	color: #969696;
-	font-size: 12px;
-	letter-spacing: .5px;
-	margin-left: 12.5px;
-	margin-right: 12.5px;
-}
-
-.link:hover{
-	cursor: pointer;
-	color: #383737;
 }

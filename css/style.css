@@ -53,23 +53,17 @@ a:visited{
 
 .body-wrapper{
 	width: 70%;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
 }
 
-.transition{
-	-webkit-animation: fadein s; 
-    -moz-animation: fadein 2s; 
-    -ms-animation: fadein 2s; 
-    -o-animation: fadein 2s; 
-    animation: fadein 2s;	
-}
 
 /* ---------------------------- */
 
 .navigation{
-	float: right;
+	text-align: center;
 }
 
 .work{
@@ -89,7 +83,6 @@ a:visited{
 
 .about{
 	display: inline-block;
-		color: #6BB0E0;
 	font-size: 16px;
 }
 
@@ -131,7 +124,8 @@ a:visited{
 
 
 .intro{
-	margin-top: 50px;
+	width: 700px;
+	margin-top: 20px;
 	font-size: 16px;
 	margin-left: auto;
 	margin-right: auto;
@@ -141,7 +135,6 @@ a:visited{
 /* ---------------------------- */
 
 .grid{
-	margin-top: 50px;
 }
 
 .project_image{
@@ -155,41 +148,13 @@ a:visited{
 }
 
 /* ---------------------------- */
-.width{
-	margin-top: 70px;
-	border-bottom: 1px solid #E9E9E9;
-	width: 100%;
-}
-
-
-.social-media{
-	display: block;
-	margin-top: 20px;
-	margin-bottom: 30px;
-	text-align: center;
-}
-
-.link{
-	display: inline-block;
-	color: #969696;
-	font-size: 12px;
-	letter-spacing: .5px;
-	margin-left: 12.5px;
-	margin-right: 12.5px;
-}
-
-.link:hover{
-	cursor: pointer;
-	color: #383737;
-}
-
 .project-block {
-  left: 5%;
+  margin-left: auto;
+  margin-right: auto;
   width: 90%;
-  height: 420px;
+  height: 200px;
   background-color: grey;
-  margin: 15px;
-  margin-top: 100px;
+  margin-top: 35px;
 }
 
 .project-block p {
@@ -198,7 +163,8 @@ a:visited{
 }
 
 .columns {
-  left: 5%;
+  margin-left: auto;
+  margin-right: auto;
   width: 90%;
   content: "";
   clear: both;
