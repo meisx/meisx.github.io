@@ -144,6 +144,13 @@ a:visited{
   margin-top: 35px;
 }
 
+.project_image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 200px;
+  margin-top: 35px;
+}
 .project-block p {
   color: white !important;
   text-align: center;
