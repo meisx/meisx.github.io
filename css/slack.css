@@ -95,16 +95,13 @@ a:visited{
 	text-align: center;
 }
 
-.subheader{
-	font-size: 20px;
-	margin-top: 10px;
-}
 
 
 .description{
 	margin-top: 10px;
 	font-size: 14px;
 	line-height: 28px;
+	text-align: justify;
 }
 
 
@@ -119,12 +116,8 @@ a:visited{
 	margin-right: auto;
 	padding-right: 3.5px;
 	padding-bottom: 2px;
-	width: 30%;
+	width: 47%;
 	cursor: pointer;
-}
-
-.grid2{
-	margin-top: 10px;
 }
 
 .project_image2{
@@ -137,3 +130,25 @@ a:visited{
 	cursor: pointer;
 }
 
+.button{
+	width: 160px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #383737;
+	background-color: #383737;
+	color: white;
+}
+
+.button:hover{
+	cursor: pointer;
+	border: 1px solid #777777;
+	background-color: #777777;
+	color: white;	
+    -webkit-transition: .5s;		
+}
